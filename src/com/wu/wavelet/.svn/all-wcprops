@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/info480/repo/!svn/ver/11/jack/code/SnowDogActivityDetecting/src/com/wu/wavelet
+END
+DaubechiesTranform.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/info480/repo/!svn/ver/11/jack/code/SnowDogActivityDetecting/src/com/wu/wavelet/DaubechiesTranform.java
+END
+HaarTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/info480/repo/!svn/ver/11/jack/code/SnowDogActivityDetecting/src/com/wu/wavelet/HaarTransform.java
+END
+LiftingSchemeBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/info480/repo/!svn/ver/11/jack/code/SnowDogActivityDetecting/src/com/wu/wavelet/LiftingSchemeBase.java
+END

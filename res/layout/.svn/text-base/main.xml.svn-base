@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Activity Detecting App"
+    />
+    
+    
+ <TextView 
+	android:id="@+id/statetv" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:text="Not Start Yet"
+    /> 
+    
+ <TextView 
+	android:id="@+id/acttv" 
+    android:layout_width="fill_parent" 
+    android:layout_height="70pt"
+    android:text="Hello"
+    />  
+    
+ 
+    
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+		<Button
+			android:id="@+id/start"  
+			android:text="Start"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+		/>
+		
+		<Button
+			android:id="@+id/stop"  
+			android:text="Stop"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+		/>
+	</LinearLayout>	
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+		<Button
+		android:id="@+id/dbwt"  
+		android:text="DB Wavelet Detecting"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		
+		/>
+		
+		<Button
+			android:id="@+id/info"  
+			android:text="Statistics"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+		/>
+	</LinearLayout>
+
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+		<Button
+		android:id="@+id/fft"  
+		android:text="FFT Detecting"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		/>
+		
+		<Button
+			android:id="@+id/haarwt"  
+			android:text="Haar WT Detecting"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+		/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+				>
+			<Button
+				android:id="@+id/learn"  
+				android:text="Go to Learning Mode"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+			/>
+			
+			<Button
+			android:id="@+id/exit"  
+			android:text="Quit"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			/>
+	</LinearLayout>
+
+
+</LinearLayout>

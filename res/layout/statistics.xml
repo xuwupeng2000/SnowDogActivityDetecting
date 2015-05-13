@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="125pt"
+android:layout_height="wrap_content"
+android:padding="8pt"
+>
+<TextView  
+	android:id="@+id/walktv"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Walking"
+    />
+    
+    
+ <TextView 
+	android:id="@+id/runtv" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:text="Running"
+    android:layout_below="@+id/walktv"
+    /> 
+    
+ <TextView 
+	android:id="@+id/idletv" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:text="Sitting"
+    android:layout_below="@+id/runtv"
+    
+    />
+    
+    
+ <TextView 
+	android:id="@+id/uptv" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:text="Climb Stairs"
+    android:layout_below="@+id/standtv"
+    /> 
+    
+ <TextView 
+	android:id="@+id/downtv" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:text="Down Stairs"
+    android:layout_below="@+id/uptv"
+    />        
+    
+<Button
+		android:id="@+id/closeTJ"  
+		android:text="Close"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/downtv"
+	/>    
+    
+    
+    
+    
+    
+    
+</RelativeLayout>
+    
